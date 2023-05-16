@@ -25,7 +25,7 @@ const project = {
                 title: "Image",
                 type: "image",
                 options: {
-                    hotspot: "true"
+                    hotspot: true
                 },
                 fields: [
                     {
