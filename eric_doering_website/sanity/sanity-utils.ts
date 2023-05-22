@@ -33,4 +33,4 @@ export async function getProject(slug: string): Promise<Project>{
         { slug }
     ) 
 
-}
+};
