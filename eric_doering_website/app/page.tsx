@@ -1,13 +1,12 @@
 import { getProjects } from "@/sanity/sanity-utils";
 import Image from "next/image";
-import background from "../assets/background.png"
 import Link from "next/link";
 
 export default async function Home() {
   const projects = await getProjects();
 
   return (
-            <div className="max-w-5xl mx-auto py-20">
+            <div>
               <h1 className="text-7xl font-extrabold">Hi I&apos;m 
                 <span className="bg-gradient-to-r from-red-800 to-green-200 bg-clip-text text-transparent"> Eric Doering</span></h1>
                 <p className="mt-3 text-xl text-gray-600">Browse my personal projects</p>
