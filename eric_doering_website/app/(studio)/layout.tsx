@@ -1,7 +1,6 @@
-import './globals.css'
+import "../globals.css";
 import { Inter } from 'next/font/google'
-import background from "../assets/background.png"
-import Link from 'next/link'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,11 +16,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="max-w-3xl mx-auto py-10">
-        <header>
-          <Link href="/" className="bg-gray-500 text-lg font-bold">Eric</Link>
-        </header>
-        <main className="py-20">{children}</main>
+      <body>
+        {children}
         </body>
     </html>
   )
