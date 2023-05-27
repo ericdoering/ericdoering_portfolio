@@ -1,6 +1,5 @@
 import '../globals.css'
 import { Inter } from 'next/font/google'
-import background from "../assets/background.png"
 import Link from 'next/link'
 import { getPages } from '@/sanity/sanity-utils'
 
@@ -21,7 +20,7 @@ export default async function RootLayout({
 
   return (
     <html lang="en">
-      <body className="max-w-3xl mx-auto py-10">
+      <body className="max-w-7xl mx-auto py-10 background background">
         <header className="flex items-center justify-between">
             <Link href="/" className="bg-gray-500 text-lg font-bold">
               Eric
