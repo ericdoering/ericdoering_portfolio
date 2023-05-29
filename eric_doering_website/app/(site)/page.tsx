@@ -8,7 +8,7 @@ export default async function Home() {
   return (
             <div>
               <h1 className="text-7xl text-gray-300 font-extrabold">
-                <span className="text-gray-300 bg-clip-text text-transparent"> Eric Doering</span></h1>
+                <span className="text-gray-100 bg-clip-text"> Eric Doering</span></h1>
                 <p className="mt-3 text-xl text-gray-800">Creating technology solutions in Science, Engineering, and Architecture</p>
                 <h2 className="mt-10 font-bold text-gray-700 text-3xl">My Projects</h2>
 
@@ -24,7 +24,7 @@ export default async function Home() {
                   height={150}
                   className="object-cover rounded"
                   /> )}
-                  <div className="mt-2 font-extrabold text-gray-800 bg-clip-text text-transparent">
+                  <div className="mt-2 font-extrabold text-gray-800">
                   {project.name}
                   </div>
                 </Link>

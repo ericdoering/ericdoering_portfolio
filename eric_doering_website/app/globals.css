@@ -11,3 +11,26 @@
     background-repeat: no-repeat;
     height: 100%;
 }
+
+button {
+    position: relateive;
+    border: none;
+    transition: .7s ease-in;
+    z-index: 1
+}
+
+button::before
+button::after {
+    position: absolute;
+    content: "";
+    z-index: -1;
+
+}
+
+.item:hover {
+    box-shadow: inset -10.5em 0 0 0 #5bafcd, inset 10.5em 0 0 0 #a4f5ae;
+}
+
+.nav { 
+    height: '20px' 
+}
