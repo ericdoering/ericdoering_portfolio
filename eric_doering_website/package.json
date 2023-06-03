@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextui-org/react": "^1.0.0-beta.13",
     "@portabletext/react": "^3.0.0",
     "@types/node": "20.1.3",
     "@types/react": "18.2.6",
@@ -18,8 +19,10 @@
     "next": "13.4.2",
     "next-sanity": "^4.3.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react-dom": "^18.2.0",
+    "react-server-components": "^0.0.0",
     "sanity": "^3.10.3",
+    "server-components": "^0.2.1",
     "typescript": "5.0.4"
   },
   "devDependencies": {

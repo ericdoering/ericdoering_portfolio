@@ -28,9 +28,14 @@ button::after {
 }
 
 .item:hover {
-    box-shadow: inset -10.5em 0 0 0 #5bafcd, inset 10.5em 0 0 0 #a4f5ae;
+    box-shadow: inset -10.5em 0 0 0 #b5e1f1, inset 10.5em 0 0 0 #adf0b5;
 }
 
 .nav { 
     height: '20px' 
+}
+
+.faded-background {
+    background-color: rgba(248, 248, 251, 0.8);
+    padding: 5px;
 }

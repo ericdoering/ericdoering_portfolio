@@ -24,7 +24,9 @@ export default async function Project({ params }: Props){
                 >View Project</a>
             </header>
             <div className="text-lg text-gray-900 mt-5">
-                <PortableText value={project.content}/>
+                <div className="rounded shadow-lg bg-gray-200">
+                    <PortableText value={project.content}/>
+                </div>
             </div>
             <Image 
             src={project.image}

@@ -27,9 +27,7 @@ const page = {
                     type: "block"
                 }
             ],
-
         },
-
     ],
 };
 
