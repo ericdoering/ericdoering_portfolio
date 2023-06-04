@@ -13,7 +13,7 @@ export default async function Project({ params }: Props){
     return (
         <div>
             <header className="flex items-center justify-between">
-                <h1 className="text-gray-300 text-3xl drop-shadow font-extrabold"
+                <h1 className="text-gray-100 text-3xl drop-shadow font-extrabold"
                 >{project.name}</h1>
                 <a 
                 href={project.url} 
@@ -24,7 +24,7 @@ export default async function Project({ params }: Props){
                 >View Project</a>
             </header>
             <div className="text-lg text-gray-900 mt-5">
-                <div className="rounded shadow-lg bg-gray-200">
+                <div className="rounded shadow-lg bg-gray-100 p-3">
                     <PortableText value={project.content}/>
                 </div>
             </div>
