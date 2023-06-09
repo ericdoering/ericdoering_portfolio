@@ -17,16 +17,16 @@ export default async function Page({ params }: Props) {
       <h1 className="text-4xl drop-shadow font-extrabold text-gray-100">{page.title}</h1>
       {page.title && page.title.includes("About") ? (
         <>
-          <div>
+          <div className="profile-container">
             <Image
-              className="mt-10 border-white rounded"
+              className="mt-10 border-2 border-gray-100 rounded move-profile"
               src={profile}
               alt="Eric profile"
               width={200}
               height={300}
             />
           </div>
-          <div className="max-w-md rounded shadow-lg bg-gray-200 pb-5">
+          <div className="rounded shadow-lg bg-gray-100 pb-5">
             <div className="text-md text-gray-700 mt-10 px-6 pt-4">
               <PortableText value={page.content} />
             </div>
@@ -39,7 +39,7 @@ export default async function Page({ params }: Props) {
 
       {page.title && page.title.includes("Contact") ? (
       <div>
-      <div className="max-w-md rounded shadow-lg bg-gray-200 pb-5">
+      <div className="max-w-md rounded shadow-lg bg-gray-100 pb-5">
         <div className="text-md text-gray-700 mt-10 px-6 pt-4">
           <PortableText value={page.content} />
             <div className="flex items-center justify-evenly">
