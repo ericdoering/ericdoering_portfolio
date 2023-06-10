@@ -13,10 +13,10 @@ export default async function Page({ params }: Props) {
   const page = await getPage(params.slug);
 
   return (
-    <div className="content-container">
-      <h1 className="text-4xl drop-shadow font-extrabold text-gray-100">{page.title}</h1>
+    <div>
       {page.title && page.title.includes("About") ? (
-        <>
+        <div className="content-container">
+          <h1 className="text-4xl drop-shadow font-extrabold text-gray-100">{page.title}</h1>
           <div className="profile-container">
             <Image
               className="mt-10 border-2 border-gray-100 rounded move-profile"
@@ -27,28 +27,23 @@ export default async function Page({ params }: Props) {
             />
           </div>
           <div className="rounded shadow-lg bg-gray-100 pb-5">
-            <div className="text-md text-gray-700 mt-10 px-6 pt-4">
+            <div className="text-sm text-gray-700 mt-8 px-6 pt-4">
               <PortableText value={page.content} />
             </div>
           </div>
-        </>
-        ) : null}
-
-
-
-
+        </div>
+      ) : null}
+  
       {page.title && page.title.includes("Contact") ? (
-      <div>
-      <div className="max-w-sm rounded shadow-lg bg-gray-100 pb-5">
-        <div className="text-md text-gray-700 mt-10 px-6 pt-4">
-          <PortableText value={page.content} />
+        <div className="max-w-sm rounded shadow-lg bg-gray-100 pb-5">
+          <div className="text-md text-gray-700 mt-8 px-6 pt-4">
+            <PortableText value={page.content} />
             <div className="flex items-center justify-evenly">
               <a href="https://www.linkedin.com/in/eric-doering-3989aa141/" target="_blank"><Image height={50} className="mt-4 mr-2 hover:scale-110"  alt="Linked In" src={LinkedInIcon}/></a>
               <a href="https://github.com/ericdoering" target="_blank"><Image height={50} className="mt-4 hover:scale-110"  alt="Github" src={GithubIcon}/></a>
             </div>
+          </div>
         </div>
-      </div>
-      </div>
       ) : null}
     </div>
   );

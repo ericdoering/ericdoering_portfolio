@@ -26,7 +26,7 @@ export default async function RootLayout({
   <body className="max-w-7xl mx-auto py-10 background background">
     <header>
       <nav style={{ height: "60px", position:'fixed'}} className="bg-white dark:bg-gray-900 fixed w-full top-0 left-0 border-b border-gray-200 dark:border-gray-600 flex items-center nav">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-evenly mx-auto p-4">
+        <div className="w-full md:w-32 lg:w-48 flex flex-wrap items-center justify-evenly mx-auto p-4">
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             
             <button className="item py-2 px-4 rounded">

@@ -10,9 +10,9 @@ export default async function Home() {
             <div>
               <h1 className="text-7xl text-gray-300 font-extrabold">
                 <span className="text-gray-100"> Eric Doering</span></h1>
-                <div className="flex items-center">
+                <div className="flex items-center flex-wrap">
                 <p className="mt-3 text-xl text-gray-100">Creating solutions for the digital environment.</p>
-                <Image className="earth ml-1 mt-2" height={30} alt="Earth" src={Earth}/>
+                <Image className="earth ml-1 mt-3 sm:flex-column" height={30} alt="Earth" src={Earth}/>
                 </div>
                 <h2 className="mt-10 font-bold text-gray-100 text-3xl">My Projects</h2>
 
