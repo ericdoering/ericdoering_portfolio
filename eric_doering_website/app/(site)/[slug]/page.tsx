@@ -13,7 +13,7 @@ export default async function Page({ params }: Props) {
   const page = await getPage(params.slug);
 
   return (
-    <div>
+    <div className="content-container">
       <h1 className="text-4xl drop-shadow font-extrabold text-gray-100">{page.title}</h1>
       {page.title && page.title.includes("About") ? (
         <>
@@ -39,7 +39,7 @@ export default async function Page({ params }: Props) {
 
       {page.title && page.title.includes("Contact") ? (
       <div>
-      <div className="max-w-md rounded shadow-lg bg-gray-100 pb-5">
+      <div className="max-w-sm rounded shadow-lg bg-gray-100 pb-5">
         <div className="text-md text-gray-700 mt-10 px-6 pt-4">
           <PortableText value={page.content} />
             <div className="flex items-center justify-evenly">

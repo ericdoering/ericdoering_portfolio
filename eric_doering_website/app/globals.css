@@ -60,8 +60,8 @@ button::after {
 }
 
 .profile-container {
-    position: relative;
     overflow: hidden;
+    z-index: -10;
   }
   
   .move-profile {
@@ -76,3 +76,11 @@ button::after {
       transform: translateX(0);
     }
   }
+
+  .content-container {
+    position: relative;
+    z-index: -100;
+  }
+
+
+
