@@ -35,8 +35,8 @@ export default async function Page({ params }: Props) {
       ) : null}
   
       {page.title && page.title.includes("Contact") ? (
-        <div className="max-w-sm rounded shadow-lg bg-gray-100 pb-5">
-          <div className="text-md text-gray-700 mt-8 px-6 pt-4">
+        <div className="max-w-sm rounded shadow-lg bg-gray-100 pb-5 border-4 border-gray-900">
+          <div className="text-md text-gray-700 mt-4 px-6">
             <PortableText value={page.content} />
             <div className="flex items-center justify-evenly">
               <a href="https://www.linkedin.com/in/eric-doering-3989aa141/" target="_blank"><Image height={50} className="mt-4 mr-2 hover:scale-110"  alt="Linked In" src={LinkedInIcon}/></a>

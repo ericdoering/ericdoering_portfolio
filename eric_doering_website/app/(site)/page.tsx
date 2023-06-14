@@ -1,6 +1,7 @@
 import { getProjects } from "@/sanity/sanity-utils";
 import Image from "next/image";
 import Link from "next/link";
+import { Skills } from "@/components/skills";
 import Earth from "../../assets/earth-americas-solid.svg"
 
 export default async function Home() {
@@ -14,6 +15,7 @@ export default async function Home() {
                 <p className="mt-3 text-xl text-gray-100">Creating solutions for the digital environment.</p>
                 <Image className="earth ml-1 mt-3 sm:flex-column" height={30} alt="Earth" src={Earth}/>
                 </div>
+                <Skills />
                 <h2 className="mt-10 font-bold text-gray-100 text-3xl">My Projects</h2>
 
               <div className="mt-5 grid grid-row-2 gap-8">
