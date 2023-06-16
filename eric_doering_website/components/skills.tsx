@@ -13,7 +13,7 @@ export function Skills(){
                     <li>Git/Github</li>
                     <li>Bootstrap/Tailwind</li>
                     <li>R/RStudio</li>
-                    <li>AWS</li>
+                    <li>Amazon Web Services</li>
                     <li>Data Structures & Algorithms</li>
                 </ul>
         </>

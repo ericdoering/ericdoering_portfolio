@@ -7,14 +7,25 @@ type Props = {
 }
 
 export default async function Project({ params }: Props){
+    const navigateLink = "https://github.com/ericdoering/navigate_for_rate"
+    const chordLink = "https://github.com/ericdoering/chord_progress"
     const slug = params.project;
     const project = await getProject(slug)
+    const code = project.name.includes("Expensed") ? navigateLink : chordLink
 
     return (
         <div>
             <header className="flex items-center justify-between">
                 <h1 className="text-gray-100 text-3xl drop-shadow font-extrabold"
                 >{project.name}</h1>
+                <div>
+                <a 
+                href={code} 
+                title="View Code" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-gray-100 rounded lg text-gray-500 font-bold py-3 px-4 mr-3 whitespace-nowrap hover:bg-gray-900 hover:text-gray-100 transition"
+                >View Code</a>
                 <a 
                 href={project.url} 
                 title="View Project" 
@@ -22,6 +33,7 @@ export default async function Project({ params }: Props){
                 rel="noopener noreferrer"
                 className="bg-gray-100 rounded lg text-gray-500 font-bold py-3 px-4 whitespace-nowrap hover:bg-gray-900 hover:text-gray-100 transition"
                 >View Project</a>
+                </div>
             </header>
             <div className="text-lg text-gray-900 mt-5">
                 <div className="rounded shadow-lg bg-gray-100 p-3">
