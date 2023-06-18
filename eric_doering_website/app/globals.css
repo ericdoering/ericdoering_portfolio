@@ -36,14 +36,38 @@ button::after {
 
 @media (max-width: 640px) {
     .item {
-      font-size: 14px;
-      padding: 6px 12px;
+      font-size: 12px;
+      padding: 4px 10px;
+    }
+
+    .content {
+      width: 90%;
+    }
+
+    .background {
+      height: 300vh;
+    }
+
+    .link-button {
+      width: 60%;
+      height: 60%;
+      font-size:x-small;
+    }
+
+    .project-img {
+      width: 90%;
+      height: 90%;
+    }
+
+    .all {
+      margin-left: 9px;
     }
   }
 
 
 .nav { 
-    height: '20px' 
+    height: '20px';
+    z-index: 10;
 }
 
 

@@ -14,7 +14,7 @@ export default async function Project({ params }: Props){
     const code = project.name.includes("Expensed") ? navigateLink : chordLink
 
     return (
-        <div>
+        <div className="content all">
             <header className="flex items-center justify-between">
                 <h1 className="text-gray-100 text-3xl drop-shadow font-extrabold"
                 >{project.name}</h1>
@@ -24,14 +24,14 @@ export default async function Project({ params }: Props){
                 title="View Code" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-gray-100 rounded lg text-gray-500 font-bold py-3 px-4 mr-3 whitespace-nowrap hover:bg-gray-900 hover:text-gray-100 transition"
+                className="link-button bg-gray-100 rounded lg text-gray-500 font-bold py-3 px-4 mr-3 whitespace-nowrap hover:bg-gray-900 hover:text-gray-100 transition"
                 >View Code</a>
                 <a 
                 href={project.url} 
                 title="View Project" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-gray-100 rounded lg text-gray-500 font-bold py-3 px-4 whitespace-nowrap hover:bg-gray-900 hover:text-gray-100 transition"
+                className="link-button bg-gray-100 rounded lg text-gray-500 font-bold py-3 px-4 whitespace-nowrap hover:bg-gray-900 hover:text-gray-100 transition"
                 >View Project</a>
                 </div>
             </header>

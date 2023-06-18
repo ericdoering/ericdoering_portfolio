@@ -45,7 +45,7 @@ export default async function RootLayout({
         </div>
       </nav>
     </header>
-    <main className="py-20">{children}</main>
+    <main className="py-20 ml-1">{children}</main>
   </body>
 </html>
 
