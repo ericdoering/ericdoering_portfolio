@@ -35,7 +35,7 @@ export default async function Page({ params }: Props) {
       ) : null}
   
       {page.title && page.title.includes("Contact") ? (
-        <div className="max-w-sm rounded shadow-lg bg-gray-100 pb-5 border-4 border-gray-900 content">
+        <div className="max-w-sm rounded shadow-lg bg-gray-100 pb-5 border-4 border-gray-900 ml-2 content">
           <div className="text-md text-gray-700 mt-4 px-6">
             <PortableText value={page.content} />
             <div className="flex items-center justify-evenly">
