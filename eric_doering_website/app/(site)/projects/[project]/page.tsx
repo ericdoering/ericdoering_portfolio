@@ -9,9 +9,20 @@ type Props = {
 export default async function Project({ params }: Props){
     const navigateLink = "https://github.com/ericdoering/navigate_for_rate"
     const chordLink = "https://github.com/ericdoering/chord_progress"
+    const positiveLink = "https://github.com/ericdoering/project_positive"
     const slug = params.project;
     const project = await getProject(slug)
-    const code = project.name.includes("Expensed") ? navigateLink : chordLink
+    let code;
+
+    if(project.name.includes("Expensed")){
+        code = navigateLink
+    }
+    else if(project.name.includes("Project")){
+        code = positiveLink
+    }
+    else if(project.name.includes("Chord")) {
+        code = chordLink
+    }
 
     return (
         <div className="content all">
