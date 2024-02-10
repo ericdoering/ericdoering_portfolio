@@ -18,7 +18,7 @@ export default async function Page({ params }: Props) {
         <div className="content-container all">
           <h1 className="text-4xl drop-shadow font-extrabold text-gray-100">{page.title}</h1>
           <div className="profile-container">
-            <Image
+            <Image loading="lazy"
               className="mt-10 border-2 border-gray-100 rounded move-profile"
               src={profile}
               alt="Eric profile"

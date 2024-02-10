@@ -8,7 +8,7 @@ export default async function Home() {
   const projects = await getProjects();
 
   return (
-            <div className="all">
+            <div className="all" rel="pre-load">
               <h1 className="text-7xl text-gray-300 font-extrabold">
                 <span className="text-gray-100"> Eric Doering</span></h1>
                 <div className="flex items-center flex-wrap">
@@ -23,7 +23,7 @@ export default async function Home() {
                  <Link href={`/projects/${project.slug}`} key={project._id} className=" 
                  hover:scale-105 hover:border-blue-500 transition project-img">
                   {project.image && (
-                  <Image 
+                  <Image loading="lazy"
                   src={project.image}
                   alt={project.name}
                   width={400}

@@ -51,7 +51,7 @@ export default async function Project({ params }: Props){
                     <PortableText value={project.content}/>
                 </div>
             </div>
-            <Image 
+            <Image loading="lazy"
             src={project.image}
             alt={project.name}
             width={1920}
