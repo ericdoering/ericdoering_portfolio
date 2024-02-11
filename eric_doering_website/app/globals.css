@@ -4,11 +4,13 @@
 
 
 .background {
+    background-color: rgba(28, 104, 210, 0.698);
     background-image: url("../assets/background.png");
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
-    height: 150vh;
+    padding-bottom: 100px;
+    padding-top: 50px;
 }
 
 
