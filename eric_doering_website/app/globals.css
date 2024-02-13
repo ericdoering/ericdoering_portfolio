@@ -100,16 +100,46 @@ button::after {
 
 
 .profile-container {
-    overflow: hidden;
-    z-index: -10;
-  }
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  z-index: -10;
+  flex: auto;
+}
 
   
-  .move-profile {
+  .move-profile-1 {
     animation: slide-in 2s ease-in-out forwards;
   }
 
-  
+  .move-profile-2 {
+    animation: slide-in 3s ease-in-out forwards;
+  }
+
+  .move-profile-3 {
+    animation: slide-in 4s ease-in-out forwards;
+  }
+
+  @media screen and (max-width: 500px) {
+    .move-profile-3,
+    .move-profile-2 {
+        display: none; 
+    }
+}
+
+  @media screen and (max-width: 768px) {
+    .move-profile-3 {
+        display: none; 
+    }
+}
+
+@media screen and (max-width: 860px) {
+  .grid-cols-2 {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+
   @keyframes slide-in {
     from {
       transform: translateX(100px);

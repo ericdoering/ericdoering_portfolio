@@ -11,7 +11,7 @@ export function Skills(){
                     <li>Python/Flask</li>
                     <li>SQL/PostgreSQL/MongoDB</li>
                     <li>Git/Github</li>
-                    <li>Bootstrap/Tailwind</li>
+                    <li>Bootstrap/Tailwind/NextJS</li>
                     <li>R/RStudio</li>
                     <li>Amazon Web Services</li>
                     <li>Data Structures & Algorithms</li>

@@ -1,6 +1,8 @@
 import { getPage } from "@/sanity/sanity-utils";
 import { PortableText } from "@portabletext/react";
 import profile from "../../../assets/website_profile_picture.png";
+import profile2 from  "../../../assets/profile2.png"
+import profile3 from "../../../assets/profile3.png"
 import Image from "next/image";
 import LinkedInIcon from '../../../assets/linkedin.svg';
 import GithubIcon from '../../../assets/github.svg';
@@ -21,11 +23,29 @@ export default async function Page({ params }: Props) {
             <Image 
               priority={true}
               placeholder="blur"
-              className="mt-10 border-2 border-gray-100 rounded move-profile"
+              className="mt-10 border-2 border-gray-100 rounded move-profile-1"
               src={profile}
               alt="Eric profile"
-              width={200}
-              height={300}
+              width={150}
+              height={250}
+            />
+            <Image 
+              priority={true}
+              placeholder="blur"
+              className="mt-10 ml-20 border-2 border-gray-100 rounded move-profile-2"
+              src={profile3}
+              alt="Eric profile"
+              width={150}
+              height={250}
+            />
+            <Image 
+              priority={true}
+              placeholder="blur"
+              className="mt-10 ml-20 border-2 border-gray-100 rounded move-profile-3"
+              src={profile2}
+              alt="Eric profile"
+              width={150}
+              height={250}
             />
           </div>
           <div className="rounded shadow-lg bg-gray-100 pb-5 content">
