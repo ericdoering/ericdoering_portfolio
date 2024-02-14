@@ -10,18 +10,27 @@ export default async function Project({ params }: Props){
     const navigateLink = "https://github.com/ericdoering/navigate_for_rate"
     const chordLink = "https://github.com/ericdoering/chord_progress"
     const positiveLink = "https://github.com/ericdoering/project_positive"
+    const populationLink = "https://github.com/ericdoering/population_tracker"
     const slug = params.project;
     const project = await getProject(slug)
     let code;
+    let defaultLink = "https://ericdoering-portfolio-swart.vercel.app/"
 
-    if(project.name.includes("Expensed")){
-        code = navigateLink
-    }
-    else if(project.name.includes("Project")){
-        code = positiveLink
-    }
-    else if(project.name.includes("Chord")) {
-        code = chordLink
+    switch(true) {
+        case project.name.includes("Expensed"):
+            code = navigateLink;
+            break;
+        case project.name.includes("Project"):
+            code = positiveLink;
+            break;
+        case project.name.includes("Chord"):
+            code = chordLink;
+            break;
+        case project.name.includes("Population"):
+            code = populationLink;
+            break;
+        default:
+            code = defaultLink;
     }
 
     return (
