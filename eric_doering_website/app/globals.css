@@ -150,10 +150,29 @@ button::after {
   }
   
 
-  .content-container {
+.content-container {
     position: relative;
     z-index: -100;
+}
+
+.resume {
+  transition: all 0.1s ease;
+-webkit-transition: all 0.1s ease;
+}
+
+
+@keyframes jump {
+  0%, 100% {
+    transform: translateY(5px);
   }
+  50% {
+    transform: translateY(-5px);
+  }
+}
 
-
+.resume:hover .res-img {
+  animation: jump 2s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
 
