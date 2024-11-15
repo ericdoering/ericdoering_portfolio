@@ -21,9 +21,23 @@ export default async function RootLayout({
 
   const pages = await getPages()
 
+
   return (
     <html lang="en">
   <body className="max-w-7xl mx-auto py-10 background">
+  <div className="box">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
     <header>
       <nav style={{ height: "60px", position:'fixed'}} className="bg-white dark:bg-gray-900 fixed w-full top-0 left-0 border-b border-gray-200 dark:border-gray-600 flex items-center nav">
         <div className="w-full md:w-32 lg:w-48 flex flex-wrap items-center justify-evenly mx-auto p-4">
