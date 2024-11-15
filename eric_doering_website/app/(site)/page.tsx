@@ -9,14 +9,14 @@ export default async function Home() {
 
   return (
             <div className="all" rel="pre-load">
-              <h1 className="text-7xl text-gray-300 font-extrabold">
-                <span className="text-gray-100"> Eric Doering</span></h1>
+              <h1 className="text-7xl text-gray-400 font-extrabold">
+                <span className="text-gray-200"> Eric Doering</span></h1>
                 <div className="flex items-center flex-wrap">
-                <p className="mt-3 text-xl text-gray-100">Creating solutions for the digital environment.</p>
+                <p className="mt-3 text-xl text-gray-200">Creating solutions for the digital environment.</p>
                 <Image className="earth ml-1 mt-3 sm:flex-column" height={30} alt="Earth" src={Earth}/>
                 </div>
                 <Skills />
-                <h2 className="mt-10 font-bold text-gray-100 text-3xl">My Projects</h2>
+                <h2 className="mt-10 font-bold text-gray-200 text-3xl">My Projects</h2>
 
               <div className="mt-5 grid grid-cols-2 gap-y-8 gap-x-1">
               {projects.map((project) => (
@@ -30,7 +30,7 @@ export default async function Home() {
                   height={150}
                   className="object-cover rounded"
                   /> )}
-                  <div className="mt-2 font-extrabold text-gray-100">
+                  <div className="mt-2 font-extrabold text-gray-200">
                   {project.name}
                   </div>
                 </Link>
