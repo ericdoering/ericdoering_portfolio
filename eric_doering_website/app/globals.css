@@ -94,7 +94,7 @@
 button {
     position: relateive;
     border: none;
-    transition: .7s ease-in;
+    transition: .3s ease-in;
     z-index: 1
 }
 
@@ -109,7 +109,12 @@ button::after {
 
 
 .item:hover {
-    box-shadow: inset -10.5em 0 0 0 #b5e1f1, inset 10.5em 0 0 0 #adf0b5;
+    box-shadow: inset -10.5em 0 0 0 rgb(52, 40, 80), inset 10.5em 0 0 0 rgb(52, 40, 80);
+}
+
+.nav-txt:hover .link-text {
+  color: #d1d5db; 
+  transition: color 0.3s ease; 
 }
 
 

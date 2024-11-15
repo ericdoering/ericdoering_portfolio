@@ -4,17 +4,17 @@
 export function Skills(){
     return (
         <>
-            <h1 className="mt-10 mb-2 font-bold text-gray-100 text-3xl">My Skills</h1>
-                <ul className="list-disc text-sm text-gray-100 ml-3">
-                    <li>Typescript/Javascript/HTML/CSS</li>
-                    <li>React/Node.js/Express</li>
-                    <li>Python/Flask</li>
-                    <li>SQL/PostgreSQL/MongoDB</li>
-                    <li>Git/Github</li>
-                    <li>Bootstrap/Tailwind/NextJS</li>
-                    <li>R/RStudio</li>
-                    <li>Amazon Web Services</li>
-                    <li>Data Structures & Algorithms</li>
+            <h1 className="mt-12 mb-4 font-bold text-gray-200 text-3xl">My Skills</h1>
+                <ul className="list-disc text-sm text-gray-200 ml-3">
+                    <li className="mt-1">Typescript/Javascript/HTML/CSS</li>
+                    <li className="mt-1">React/Node.js/Express</li>
+                    <li className="mt-1">Python/Flask</li>
+                    <li className="mt-1">SQL/PostgreSQL/MongoDB</li>
+                    <li className="mt-1">Git/Github</li>
+                    <li className="mt-1">Bootstrap/Tailwind/NextJS</li>
+                    <li className="mt-1">R/RStudio</li>
+                    <li className="mt-1">Amazon Web Services</li>
+                    <li className="mt-1 mb-14">Data Structures & Algorithms</li>
                 </ul>
         </>
     )
