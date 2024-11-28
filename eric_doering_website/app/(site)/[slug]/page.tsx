@@ -8,7 +8,6 @@ import LinkedInIcon from '../../../assets/linkedin.svg';
 import GithubIcon from '../../../assets/github.svg';
 import Link from "next/link";
 
-
 type Props = {
   params: { slug: string };
 };

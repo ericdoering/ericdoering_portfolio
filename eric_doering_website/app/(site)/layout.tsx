@@ -8,6 +8,7 @@ import logo from "../../assets/logo.png";
 
 const inter = Inter({ subsets: ["latin"] });
 
+
 export const metadata = {
   title: "Eric Doering Portfolio",
   description: "Eric Doering Portfolio",
@@ -43,23 +44,24 @@ export default async function RootLayout({
           >
             <div className="w-full flex items-center justify-center mx-auto p-4">
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                <button className="item py-2 px-8 rounded m-8 nav-txt">
-                  <Link href="/" className="text-gray-600 link-text">
+                <Link href="/" className="text-gray-600 link-text">
+                  <button className="item py-2 px-8 rounded m-8 nav-txt">
                     Projects
-                  </Link>
-                </button>
+                  </button>
+                </Link>
                 {pages.map((page) => (
-                  <button
+                  <Link
+                    href={`/${page.slug}`}
+                    className="text-gray-600 link-text"
                     key={page._id}
-                    className="item py-2 px-8 m-8 rounded nav-txt"
                   >
-                    <Link
-                      href={`/${page.slug}`}
-                      className="text-gray-600 link-text"
+                    <button
+                      key={page._id}
+                      className="item py-2 px-8 m-8 rounded nav-txt"
                     >
                       {page.title}
-                    </Link>
-                  </button>
+                    </button>
+                  </Link>
                 ))}
               </span>
             </div>
