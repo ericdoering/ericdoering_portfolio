@@ -68,7 +68,7 @@ export default async function Page({ params }: Props) {
             </div>
             <div className="flex justify-center mt-8">
                 <button className="resume bg-gray-900 hover:bg-gray-600 px-20 py-4 rounded-md">
-                        <a className="text-white" href="/eric_doering_resume_2024.pdf"  download>
+                        <a className="text-white" href="/eric_doering_resume_2025.pdf"  download>
                           Download Resume
                           <div className="flex justify-center">
                             <svg className="res-img mt-4" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" version="1.1" id="resume" width="30px" height="30px" viewBox="0 0 61.994 61.994">
