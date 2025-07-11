@@ -1,0 +1,23 @@
+[
+    {
+      "name": "Tighe Carroll",
+      "role": "Tech Lead at Calibrate",
+      "image": "/tighe_profile_pic.png",
+      "alt": "tighe profile",
+      "quote": "I had the pleasure of mentoring Eric early in his software engineering journey, and he quickly impressed me with his curiosity, work ethic, and ability to grasp complex concepts. I would gladly recommend him to any team."
+    },
+    {
+      "name": "Sam Pinhero",
+      "role": "Senior Software Engineer at Meta",
+      "image": "/sam_profile_pic.png",
+      "alt": "sam profile",
+      "quote": "Eric has some of the strongest work ethic I have seen. He continues to push himself on mulitple fronts and remain a top contributer in the field."
+    },
+    {
+      "name": "Kent Chan",
+      "role": "Site Reliablity Engineer at Humana",
+      "image": "/kent_profile_pic.png",
+      "alt": "kent profile",
+      "quote": "Eric is one of those people who instantly puts others at ease. He has a warm, approachable presence that makes people feel comfortable and genuinely heard. It’s easy to trust him."
+    }
+  ]
