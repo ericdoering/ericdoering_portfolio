@@ -163,9 +163,9 @@ button::after {
 
 .earth {
     z-index: -1;
-    -webkit-animation:spin 14s linear infinite;
-    -moz-animation:spin 14s linear infinite;
-    animation:spin 14s linear infinite;
+    -webkit-animation:spin 60s linear infinite;
+    -moz-animation:spin 60s linear infinite;
+    animation:spin 60s linear infinite;
 }
 @-moz-keyframes spin { 
     100% { -moz-transform: rotate(360deg); } 

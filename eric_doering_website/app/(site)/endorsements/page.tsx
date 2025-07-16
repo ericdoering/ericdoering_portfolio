@@ -32,7 +32,7 @@ export default async function EndorsementsPage() {
               blurDataURL={image}
             />
             <div>
-              <p className="text-xl text-gray-200 mb-2">
+              <p className="text-lg text-gray-200 mb-2">
                 {quote}
               </p>
               <p className="text-sm text-gray-200 mt-4">
