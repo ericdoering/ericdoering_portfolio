@@ -19,5 +19,12 @@
       "image": "/kent_profile_pic.png",
       "alt": "kent profile",
       "quote": "Eric is one of those people who instantly puts others at ease. He has a warm, approachable presence that makes people feel comfortable and genuinely heard. It’s easy to trust him."
+    },
+    {
+      "name": "Adei Mandaluniz",
+      "role": "Engineering Lead at Acoer",
+      "image": "/adei_profile_pic.png",
+      "alt": "adei profile",
+      "quote": "Despite the remote nature of our company, Eric has been consistently easy to reach, communicative, and always happy to help. His collaborative attitude and commitment to the team’s success makes working with him a real pleasure."
     }
   ]
