@@ -44,15 +44,15 @@ export default async function Project({ params }: Props){
                 title="View Code" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="link-button bg-gray-100 rounded lg text-gray-500 font-bold py-3 px-4 mr-3 whitespace-nowrap hover:bg-gray-900 hover:text-gray-100 transition"
+                className="link-button bg-gray-100 rounded lg text-gray-500 font-bold py-3 px-4 mr-3 whitespace-nowrap hover:bg-gray-400 hover:text-gray-100 transition"
                 >View Code</a>
-                <a 
+                {/* <a 
                 href={project.url} 
                 title="View Project" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="link-button bg-gray-100 rounded lg text-gray-500 font-bold py-3 px-4 whitespace-nowrap hover:bg-gray-900 hover:text-gray-100 transition"
-                >View Project</a>
+                >View Project</a> */}
                 </div>
             </header>
             <div className="text-lg text-gray-900 mt-5">
