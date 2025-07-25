@@ -12,9 +12,8 @@ export function Skills(){
                     <li className="mt-1">SQL/PostgreSQL/MongoDB</li>
                     <li className="mt-1">Git/Github</li>
                     <li className="mt-1">Bootstrap/Tailwind/NextJS</li>
-                    <li className="mt-1">R/RStudio</li>
                     <li className="mt-1">Amazon Web Services</li>
-                    <li className="mt-1 mb-14">Data Structures & Algorithms</li>
+                    <li className="mt-1 mb-14">AI and Automation Tools</li>
                 </ul>
         </>
     )
