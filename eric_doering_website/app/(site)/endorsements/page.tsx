@@ -24,7 +24,7 @@ export default function EndorsementsPage() {
 
   return (
     <div className="flex flex-col items-center justify-center text-gray-200">
-      <h1 className="mt-6 mb-4 font-bold text-3xl">Endorsements</h1>
+      <h1 className="mt-2 mb-4 font-bold text-3xl">Endorsements</h1>
       <p className="text-xl max-w-3xl text-center mb-12 px-4">
         Discover what colleagues, clients, and collaborators have to say about
         working with me. These testimonials offer honest, first-hand insights
@@ -44,8 +44,8 @@ export default function EndorsementsPage() {
             position === 0
               ? "translate-y-0"
               : position === -1
-              ? "-translate-y-[50px]"
-              : "-translate-y-[110px]";
+              ? "-translate-y-[40px]"
+              : "-translate-y-[100px]";
           const zIndex = position === 0 ? "z-30" : position === -1 ? "z-20" : "z-10";
 
           return (

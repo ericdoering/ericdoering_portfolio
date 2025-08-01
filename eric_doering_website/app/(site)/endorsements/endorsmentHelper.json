@@ -1,5 +1,12 @@
 [
     {
+      "name": "Ashley MacWhirter",
+      "role": "Sr Software Engineer, Innovation Lead",
+      "image": "/ashley_profile_pic.png",
+      "alt": "ashley profile",
+      "quote": "Eric is a talented developer who approaches challenges with curiosity and determination. He’s dependable, collaborative, and brought great energy to our team at Acoer. It was rewarding to see his growth and contributions on our projects and would confidently recommend him to any team looking for a strong developer."
+    },
+    {
       "name": "Tighe Carroll",
       "role": "Tech Lead at Calibrate",
       "image": "/tighe_profile_pic.png",
