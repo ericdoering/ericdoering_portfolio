@@ -11,7 +11,7 @@
       "role": "Tech Lead at Calibrate",
       "image": "/tighe_profile_pic.png",
       "alt": "tighe profile",
-      "quote": "I had the pleasure of mentoring Eric early in his software engineering journey, and he quickly impressed me with his curiosity, work ethic, and ability to grasp complex concepts. I would gladly recommend him to any team."
+      "quote": "I mentored Eric early in his software engineering journey, and he quickly impressed me with his curiosity, work ethic, and ability to grasp complex concepts. I would gladly recommend him to any team."
     },
     {
       "name": "Sam Dicesare",
@@ -26,6 +26,13 @@
       "image": "/kent_profile_pic.png",
       "alt": "kent profile",
       "quote": "Eric is one of those people who instantly puts others at ease. He has a warm, approachable presence that makes people feel comfortable and genuinely heard. It’s easy to trust him."
+    },
+    {
+      "name": "Anthony DeBonis",
+      "role": "President at Troy Web Consulting",
+      "image": "/anthony_profile_pic.png",
+      "alt": "anthony profile",
+      "quote": "I've had the pleasure of mentoring Eric, who is a talented software developer building his career, but sometimes I feel like he can be mentoring me because of his energy level. Driven by a genuine love for building and an insatiable curiosity, he approaches every challenge with determination and thoughtfulness. He’s dependable, collaborative, and always eager to grow, with a proven track record of investing in himself as he grows his skills. It was rewarding to me to see his rapid development and use of all the latest tools and AI. I would confidently recommend him to any team looking for a strong developer with the passion and potential to make a real impact."
     },
     {
       "name": "Sam Pinhero",
