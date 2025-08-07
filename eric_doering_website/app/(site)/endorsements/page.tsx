@@ -46,7 +46,8 @@ export default function EndorsementsPage() {
               : position === -1
               ? "-translate-y-[40px]"
               : "-translate-y-[100px]";
-          const zIndex = position === 0 ? "z-30" : position === -1 ? "z-20" : "z-10";
+          const zIndex =
+            position === 0 ? "z-30" : position === -1 ? "z-20" : "z-10";
 
           return (
             <div
@@ -61,7 +62,7 @@ export default function EndorsementsPage() {
                   height={80}
                   className="rounded-xl border border-white"
                 />
-                <div>
+                <div className="max-h-[240px] overflow-y-auto pr-2">
                   <p className="mb-2 text-lg italic">{testimonial.quote}</p>
                   <p className="text-sm mt-4">
                     <span className="font-bold">{testimonial.name}</span> –{" "}
