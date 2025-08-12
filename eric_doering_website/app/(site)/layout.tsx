@@ -68,6 +68,11 @@ export default async function RootLayout({
                     Endorsements
                   </button>
                 </Link>
+                 <Link href="/extras" className="text-gray-600 link-text">
+                  <button className="item py-2 px-8 rounded m-8 nav-txt">
+                    Extras
+                  </button>
+                </Link>
               </span>
             </div>
           </nav>
